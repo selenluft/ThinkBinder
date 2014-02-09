@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'simple_form', '~> 3.0.0.rc'
+
 gem 'zurb-foundation', '~> 4.2.2'
 
 gem 'devise', '~> 3.0.0.rc'
