@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'kaminari'
 
 gem 'simple_form', '~> 3.0.0.rc'
 
