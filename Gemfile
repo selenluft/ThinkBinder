@@ -37,20 +37,19 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+ end
 
  group :production do
    # PostgreSQL database 
-   gem pg
    #  static asset serving and logging on Heroku
+   gem 'pg'
    gem 'rails_12factor'
  end
 
  group :development, :testing do
    gem 'sqlite3'
  end
-end
-end
-end
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
