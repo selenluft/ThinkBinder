@@ -7,4 +7,13 @@ class User < ActiveRecord::Base
 
    has_many :bookmarks 
    belongs_to :user
+
+   validates :username,
+    presence: true,
+    uniqueness: {case_sensitive: false},
+    format: {with: /\w+/}
+
+  def to_param
+    self.username
+  end
 end
