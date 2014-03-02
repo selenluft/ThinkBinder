@@ -46,9 +46,9 @@ group :doc do
  end
 
  group :development, :testing do
-   gem 'sqlite3'
+   gem "sqlite3", '~> 1.3.9'
  end
-
+ 
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

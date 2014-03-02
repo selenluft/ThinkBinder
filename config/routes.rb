@@ -1,4 +1,6 @@
 ThinkBinder::Application.routes.draw do
+  resources :pins
+
     resources :bookmarks
   resources :profiles, only: [:index, :show]
 
